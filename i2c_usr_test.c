@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	int fd;
 	unsigned char addr, data;
 	int dev_addr;
-	char bin_file_name[128];
+	char bin_file_name[512];
 	
 	if ((argc != 4) && (argc != 5))
 	{

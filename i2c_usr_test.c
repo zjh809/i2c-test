@@ -26,6 +26,7 @@ int main(int argc, char **argv)
 		return -1;
 	}
 
+	
 	sprintf(bin_file_name, "/sys/bus/i2c/devices/%s/0-0050/eeprom", argv[1]);
 	
 	fd = open(bin_file_name, O_RDWR);
